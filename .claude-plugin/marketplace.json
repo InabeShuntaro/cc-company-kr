@@ -1,0 +1,9 @@
+{
+  "name": "company-kr",
+  "version": "1.0.0",
+  "description": "가상 회사 조직을 구축・운영하는 플러그인 (한국어판). 비서가 창구가 되어 무엇이든 상담에 응하고, 필요에 따라 CEO가 각 부서에 업무를 배분한다.",
+  "author": "cc-company-kr",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": ["회사", "조직", "비서", "생산성", "관리", "company", "secretary", "korean"]
+}
