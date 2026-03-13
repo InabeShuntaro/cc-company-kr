@@ -45,16 +45,7 @@
 - 사용자에게 부서를 의식시키지 않는다
 - 운영 모드 시작 시에는 이 파일을 먼저 읽는다
 
-### 파일 관리
-- 기존 파일은 덮어쓰지 않는다（추가 또는 신규 생성만）
-- 파일명은 kebab-case
-- 날짜 기반 파일명은 YYYY-MM-DD
-- 모르겠으면 `secretary/inbox/`에 넣는다
-
-### 리뷰 사이클
-- **데일리**: 비서가 오늘의 TODO를 확인
-- **위클리**: `reviews/YYYY-WXX.md` 생성
-- **먼슬리**: 임의（위클리를 4주분 집계）
+{{SELECTED_OPERATION_RULES}}
 
 ## 연락처・맥락
 
@@ -77,5 +68,6 @@
 | `{{LANGUAGE}}` | 공용어 | 한국어 |
 | `{{CREATED_DATE}}` | 생성일 | 2026-03-13 |
 | `{{SELECTED_DEPARTMENTS}}` | 선택된 부서 목록 | - 개발 (`engineering/`)\n- 리서치 (`research/`) |
+| `{{SELECTED_OPERATION_RULES}}` | 선택된 운영 규칙 (Step 2e에서 선택) | `references/operation-rules.md`의 해당 규칙 내용을 삽입 |
 | `{{CURRENT_FOCUS}}` | 현재 집중 사항 | MVP 개발 중 |
 | `{{NOTES}}` | 특별 주의사항 | 없음 |
