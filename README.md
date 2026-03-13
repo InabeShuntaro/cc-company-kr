@@ -9,9 +9,12 @@ Claude Code에서 가상 회사 조직을 구축・운영하는 플러그인 **(
 ## 설치
 
 ```
-/plugin marketplace add <your-github-username>/cc-company-kr
+/plugin marketplace add InabeShuntaro/cc-company-kr
 /plugin install company@cc-company-kr
 ```
+
+> **주의**: 일본어 원본(`company@cc-company`)이 설치되어 있으면 `/company` 호출 시 충돌합니다.
+> 먼저 `/plugin uninstall company@cc-company`로 제거 후 설치해주세요.
 
 ---
 
