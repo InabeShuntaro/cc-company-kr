@@ -4,8 +4,6 @@ Claude Code에서 가상 회사 조직을 구축・운영하는 플러그인 **(
 
 `/company`를 실행하면 비서가 창구가 되어, 당신의 사업에 최적화된 조직(부서)을 구축합니다. 일상 운영에서는 비서에게 말을 거는 것만으로 CEO가 적절한 부서에 업무를 배분합니다.
 
-> 원본: [Shin-sibainu/cc-company](https://github.com/Shin-sibainu/cc-company) (일본어판)
-
 ---
 
 ## 설치
